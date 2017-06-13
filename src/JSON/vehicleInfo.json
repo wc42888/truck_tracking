@@ -1,0 +1,6 @@
+{
+  "vehicleId": 1234,
+  "coolantTemperature": "20",
+  "vehicleSpeed" : "20",
+  "gearSelection": "2"
+}

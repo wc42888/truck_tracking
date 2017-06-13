@@ -22,7 +22,9 @@ class NavBar extends Component {
             <LinkContainer to='/dashboard'>
               <NavItem eventKey={2}>Dashboard</NavItem>
             </LinkContainer>
-            <NavItem eventKey={2} href="#">Vehicle Detail</NavItem>
+            <LinkContainer>
+            <NavItem eventKey={2} >Vehicle Detail</NavItem>
+            </LinkContainer>
             <NavDropdown eventKey={3} title="Reports" id="reports">
               <MenuItem eventKey={3.1}>Lift Report</MenuItem>
               <MenuItem eventKey={3.2}>Lift Type Report</MenuItem>
