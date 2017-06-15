@@ -6,7 +6,7 @@ class VehicleDetail extends Component {
   render(){
     return(
       <div>
-        <div className="container">
+        <div className="container" style={{marginBottom: '10px'}}>
           <div className="row">
           <div className="col-sm-6">
               <div id="custom-search-input">
@@ -21,6 +21,13 @@ class VehicleDetail extends Component {
               </div>
           </div>
           </div>
+        </div>
+        <div className="container" >
+          <label> Start Time: </label>
+          <input type="date" style={{marginRight:'10px'}}/>
+          <label> End Time: </label>
+          <input type="date" style={{marginRight:'10px'}}/>
+          <button className='btn btn-sm btn-primary'>submit</button>
         </div>
         <div className = "container">
           <div className = "row">
