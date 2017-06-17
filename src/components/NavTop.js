@@ -17,15 +17,15 @@ class NavTop extends Component {
               <Navbar.Toggle />
             </Navbar.Header>
             <Navbar.Collapse>
-          <Nav inverse>
+          <Nav>
 
-            <LinkContainer to='/home'>
+            <LinkContainer to='/Home'>
               <NavItem >Home</NavItem>
             </LinkContainer>
-            <LinkContainer to='/dashboard'>
+            <LinkContainer to='/Dashboard'>
               <NavItem >Dashboard</NavItem>
             </LinkContainer>
-            <LinkContainer to='/vehicleDetail'>
+            <LinkContainer to='/VehicleDetail'>
               <NavItem >Vehicle Detail</NavItem>
             </LinkContainer>
             <NavDropdown title="Reports" id="reports" >
@@ -33,30 +33,30 @@ class NavTop extends Component {
                 <MenuItem >Lift Report</MenuItem>
               </LinkContainer>
               <LinkContainer to='/Reports/Lift_type_report'>
-                <MenuItem eventKey={3.2}>Lift Type Report</MenuItem>
+                <MenuItem >Lift Type Report</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Operation_summary'>
-                <MenuItem eventKey={3.3}>Operation Summary</MenuItem>
+              <LinkContainer to='/Reports/Operation_summary'>
+                <MenuItem >Operation Summary</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Shift_summary'>
-                <MenuItem eventKey={3.4}>Shift Summary</MenuItem>
+              <LinkContainer to='/Reports/Shift_summary'>
+                <MenuItem >Shift Summary</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Operating_time_summary'>
-                <MenuItem eventKey={3.5}>Operating Time Summary</MenuItem>
+              <LinkContainer to='/Reports/Operating_time_summary'>
+                <MenuItem >Operating Time Summary</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Fuel_use_summary'>
+              <LinkContainer to='/Reports/Fuel_use_summary'>
                 <MenuItem eventKey={3.6}>Fuel Use Summay</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/View_daily_activity'>
+              <LinkContainer to='/Reports/View_daily_activity'>
                 <MenuItem eventKey={3.7}>View Daily Activity</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Detailed Data'>
+              <LinkContainer to='/Reports/Detailed_Data'>
                 <MenuItem eventKey={3.8}>Detailed Data</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/PM_service'>
+              <LinkContainer to='/Reports/PM_service'>
                 <MenuItem eventKey={3.9}>PM Service</MenuItem>
               </LinkContainer>
-              <LinkContainer to='/Exception_report'>
+              <LinkContainer to='/Reports/Exception_report'>
                 <MenuItem eventKey={3.10}>Exception Report</MenuItem>
               </LinkContainer>
             </NavDropdown>
